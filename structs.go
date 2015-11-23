@@ -6,6 +6,8 @@ import (
 )
 
 func main() {
+  //var myCircle = &Circle{9,"circle"}
+  //myCircle := Circle{9,"circle"}
   myCircle := new(Circle)
   myCircle.rad = 7
   myCircle.Name = "Circle1"
